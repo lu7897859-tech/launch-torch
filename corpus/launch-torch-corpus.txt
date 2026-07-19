@@ -1,0 +1,5 @@
+﻿Launch Torch - Platform Bypass Engine
+https://lu7897859-tech.github.io/launch-torch/
+Seven-layer engine: demand validation, DNS constellation, spec series,
+AI corpus injection, dead drops, git archive, discovery pipes, silent monitoring.
+Each layer independent and unblockable. MIT license.

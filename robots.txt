@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://lu7897859-tech.github.io/launch-torch/sitemap.xml
+Crawl-delay: 10

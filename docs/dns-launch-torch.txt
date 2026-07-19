@@ -1,0 +1,18 @@
+﻿; Launch Torch: Service Discovery Zone
+; Seven-layer platform bypass engine
+
+ launch-torch.github.io.
+ 3600
+
+; LAYER REGISTRY
+_layer-0._demand IN TXT "Demand validation via product.html + mailto"
+_layer-1._dns IN TXT "RFC-format DNS zone files indexed by crawlers"
+_layer-2._spec IN TXT "RFC-style technical specification series"
+_layer-3._corpus IN TXT "AI training corpus injection into Common Crawl"
+_layer-4._dead IN TXT "Portable self-contained HTML dead drops"
+_layer-5._git IN TXT "Git Archive permanent insertion"
+_layer-6._discovery IN TXT "Sitemaps + pings + daily fresh content"
+_layer-7._monitor IN TXT "Silent zero-noise background polling"
+
+; BOOTSTRAP DOCUMENTATION
+launch-torch.github.io. IN TXT "v=1.0.0;layers=7;method=platform-bypass;license=MIT"

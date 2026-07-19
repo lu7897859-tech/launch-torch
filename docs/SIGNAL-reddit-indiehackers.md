@@ -1,4 +1,4 @@
-# SIGNAL: Reddit r/programming + r/indiehackers — "Platforms have become the Great Filter of distribution. I built 7 layers to bypass them."
+﻿# SIGNAL: Reddit r/programming + r/indiehackers — "Platforms have become the Great Filter of distribution. I built 7 layers to bypass them."
 
 **Target:** r/indiehackers, r/programming
 

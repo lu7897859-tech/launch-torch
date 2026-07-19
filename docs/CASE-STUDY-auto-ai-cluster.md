@@ -1,4 +1,4 @@
-# Case Study: Launching Auto-AI-Cluster Through the Great Filter
+﻿# Case Study: Launching Auto-AI-Cluster Through the Great Filter
 
 **Product:** Auto-AI-Cluster — self-hosted autonomous AI agent cluster
 **Engine used:** [Launch Torch](https://github.com/lu7897859-tech/launch-torch) (7-layer platform bypass)

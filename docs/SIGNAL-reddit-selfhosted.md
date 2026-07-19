@@ -1,4 +1,4 @@
-# SIGNAL: Reddit r/selfhosted — "Deployed my own AI agent cluster using only Docker Compose — zero platform dependency"
+﻿# SIGNAL: Reddit r/selfhosted — "Deployed my own AI agent cluster using only Docker Compose — zero platform dependency"
 
 **Target:** r/selfhosted (20k+ readers, highly technical)
 **Format:** Self-post with link

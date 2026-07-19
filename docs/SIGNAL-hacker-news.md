@@ -1,4 +1,4 @@
-# SIGNAL: Show HN — "I built a 7-layer platform bypass engine because platforms have become the Great Filter of innovation"
+﻿# SIGNAL: Show HN — "I built a 7-layer platform bypass engine because platforms have become the Great Filter of innovation"
 
 **Target:** Hacker News front page
 **Category:** Show HN

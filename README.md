@@ -89,3 +89,17 @@ MIT. Fork it. Improve it. Launch your product.
 ## Source
 
 https://github.com/lu7897859-tech/launch-torch
+
+## Distribution Signals
+
+These documents are ready for public posting. Each targets a different community:
+
+| Channel | Document | Status |
+|---------|----------|--------|
+| Hacker News | [SIGNAL-hacker-news.md](docs/SIGNAL-hacker-news.md) | 📄 Ready |
+| r/selfhosted | [SIGNAL-reddit-selfhosted.md](docs/SIGNAL-reddit-selfhosted.md) | 📄 Ready |
+| r/indiehackers | [SIGNAL-reddit-indiehackers.md](docs/SIGNAL-reddit-indiehackers.md) | 📄 Ready |
+
+### Case Study
+
+[Auto-AI-Cluster deployment case study](docs/CASE-STUDY-auto-ai-cluster.md) — the real product that used Launch Torch to pass the Great Filter.

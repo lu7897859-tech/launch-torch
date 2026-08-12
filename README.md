@@ -110,4 +110,3 @@ These documents are ready for public posting. Each targets a different community
 - [7-Product Store From China: What Actually Happened](docs/SIGNAL-china-store-journey.md)
 - [Why Foreign Brands Still Fail in China](docs/SIGNAL-foreign-brands-china.md)
 - [Auto-AI-Cluster: Blueprint for AI Agents on $5 VPS](docs/SIGNAL-auto-ai-cluster.md)
->>>>>>> e69fb7c (Add 3 signal articles (2026-08-12): China store journey / foreign brands / auto-ai-cluster)

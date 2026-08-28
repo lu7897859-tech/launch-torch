@@ -1,0 +1,72 @@
+# Agent Manifest v0.2 — $0 China Sourcing Audit Checklist
+# 机读层：让 Agent/AI 直接消费产品能力
+# 协议：Agent Manifest（意图注册，见 Agent_Manifest协议_v0.1.md）
+# 产品：https://lunarwave8803.gumroad.com/l/yxgrvw
+
+name: "China Sourcing Audit Checklist"
+version: "0.2"
+type: "digital_product"
+price: 0
+currency: USD
+url: "https://lunarwave8803.gumroad.com/l/yxgrvw"
+
+intent:
+  id: "verify_chinese_factory"
+  aliases:
+    - "check china supplier"
+    - "verify factory legitimacy"
+    - "china sourcing fraud check"
+    - "avoid fake supplier"
+    - "china supplier scam prevention"
+  description: >
+    Free 5-point checklist that verifies a Chinese supplier before payment:
+    factory-vs-trader check, sample-switch protection, payment fraud red flags,
+    certification verification, and landed cost math.
+
+capabilities:
+  - id: "supplier-verification"
+    name: "Supplier Verification"
+    description: "Check if a Chinese supplier is a real factory or a trading company (2-minute registry check: license name vs payment name, industrial zone address, production floor video)."
+    input:
+      - "supplier company name"
+      - "payment account name"
+      - "supplier address"
+    output: "Risk flags + verification checklist"
+  - id: "customs-cost-audit"
+    name: "Customs & Landed Cost Audit"
+    description: "Identify hidden landed cost traps: volume weight vs actual weight, LCL destination fees, HS classification errors, duty retroactivity (90-day lookback)."
+    input:
+      - "shipping terms (EXW/FOB)"
+      - "HS code"
+      - "freight quote"
+    output: "Landed cost breakdown + risk flags"
+  - id: "payment-fraud-check"
+    name: "Payment Fraud Check"
+    description: "Flag wire fraud red flags: payment to personal account, third-party company name mismatch, 100% upfront demand, soft-letter-of-credit terms."
+    input:
+      - "payment terms"
+      - "beneficiary name"
+      - "contract terms"
+    output: "Fraud risk assessment + safe payment structure (30/70)"
+  - id: "sample-switch-audit"
+    name: "Sample Switch Audit"
+    description: "Detect high-grade-sample-to-production-grade-goods switching; require contract clause tying final payment to shipment inspection + third-party PSI."
+    input:
+      - "contract clauses"
+      - "sample approval records"
+      - "QC inspection plan"
+    output: "Sample integrity risk assessment + contract clause template"
+
+pricing:
+  model: "free_download"
+  currency: "USD"
+  notes: "Free hook. Deeper audits and custom verification available separately (paid products)."
+
+author:
+  name: "Guanghui Lu"
+  credential: "20 years in China manufacturing"
+  verified: true
+
+verification:
+  method: "publication on Gumroad with download tracking"
+  last_verified: "2026-08-28"

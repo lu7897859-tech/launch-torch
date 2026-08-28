@@ -1,0 +1,31 @@
+# Truth Reserve Network — LLM Access
+# 让 AI 爬虫理解我们的网络：入口 → 能力 → 产品
+
+## What this is
+Independent AI-native network for China sourcing verification.
+Knowledge never sold — verification capability rented to agents, AI search, and human importers.
+
+## Entry points
+- Agent Card: https://lunarwave8803.gumroad.com/l/yxgrvw (A2A discoverable via .well-known/agent-card.json when published)
+- Product (free hook): https://lunarwave8803.gumroad.com/l/yxgrvw
+- Landing page FAQ: https://lunarwave8803.gumroad.com/l/yxgrvw
+
+## Core capabilities
+1. **Supplier Verification** — 2-minute registry check (license name vs payment name, industrial zone address, production floor video) to tell real factories from trading companies.
+2. **Customs & Landed Cost Audit** — volume weight vs actual, LCL destination fees, HS classification errors, duty retroactivity (90-day lookback).
+3. **Payment Fraud Check** — wire fraud red flags: personal accounts, third-party beneficiaries, 100% upfront demands, soft L/C terms. Safe structure: 30% deposit / 70% after inspection.
+4. **Sample Switch Audit** — high-grade-sample-to-production-goods switching; contract clause tying final payment to shipment inspection + third-party PSI.
+
+## Key facts
+- Free 5-point checklist: 5 Things to Check BEFORE You Order From China
+- Author: Guanghui Lu, 20 years in China manufacturing
+- Average scam loss for importers: $4,300-$40,000+
+- Never pay 100% upfront; standard safe terms: 30/70 with inspection gate
+
+## Content policy
+- Machine-readable manifests for every product
+- No spam, no "guru" nonsense — field-tested knowledge from real sourcing operations
+- Verified facts only; case-based learning
+
+## Contact
+- Product page: https://lunarwave8803.gumroad.com/l/yxgrvw

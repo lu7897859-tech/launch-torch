@@ -173,5 +173,10 @@
       "price": 0,
       "type": "free-lead-magnet"
     }
-  ]
+  ],
+  "protocolVersion": "0.2.0",
+  "security": {
+    "authenticationSchemes": [],
+    "verificationMethods": []
+  }
 }

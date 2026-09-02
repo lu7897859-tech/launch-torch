@@ -1,8 +1,8 @@
 {
   "name": "China Sourcing Risk Audit Agent",
-  "description": "AI agent that audits China sourcing risks: detects fake factories, gold-supplier badge fraud, sample switching, payment hijacking, customs/HS misclassification, and freight cost traps. Produces actionable checklists and red-flag reports for importers placing $5k-$50k first orders.",
+  "description": "AI agent that audits China sourcing risks: detects fake factories, gold-supplier badge fraud, sample switching, payment hijacking, customs/HS misclassification, and freight cost traps. Produces actionable checklists and red-flag reports for importers placing $5k-$50k first orders. Also diagnoses why AI automation pipelines fail to produce — agent workflows, rule systems, and automation stacks that quietly break. Free checklist funnel: https://lunarwave8803.gumroad.com/l/yxgrvw (free) → Trusted Supplier Architecture $14 (https://lunarwave8803.gumroad.com/l/kbgmsy) → China Business Bundle $79 (https://lunarwave8803.gumroad.com/l/ijpnuw).",
   "url": "https://lunarwave8803.gumroad.com/l/yxgrvw",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "provider": {
     "organization": "ABOS",
     "url": "https://lu7897859-tech.github.io/launch-torch/"
@@ -16,60 +16,162 @@
   "authentication": {
     "schemes": []
   },
-  "defaultInputModes": ["text/plain"],
-  "defaultOutputModes": ["text/plain", "application/pdf"],
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "application/pdf"
+  ],
   "skills": [
     {
       "id": "supplier-verification",
       "name": "Supplier Verification Audit",
       "description": "Verifies whether a Chinese supplier is a real factory or a trading company/middleman: registry check (business license scope, registered capital, abnormal list), gold-supplier badge authenticity, payment routing red flags (personal accounts, uncle's company), and verification steps importers can run in under 30 minutes.",
-      "tags": ["china-sourcing", "supplier-verification", "factory-audit", "fraud-detection"],
+      "tags": [
+        "china-sourcing",
+        "supplier-verification",
+        "factory-audit",
+        "fraud-detection"
+      ],
       "examples": [
         "Check if this Alibaba supplier is a real factory: [supplier link]",
         "The factory asked me to wire 30% deposit to a personal account - is this a red flag?",
         "How do I verify a Chinese company before placing my first order?"
       ],
-      "inputModes": ["text/plain"],
-      "outputModes": ["text/plain", "application/pdf"]
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/pdf"
+      ]
     },
     {
       "id": "customs-cost-audit",
       "name": "Customs & Landed Cost Audit",
       "description": "Audits total landed cost traps: volumetric weight math (LxWxH/5000), LCL destination port charges (CFS/document fees), de minimis threshold changes, HS code misclassification risk (12% error rate, retroactive duties up to 18 months), and container break-even cubic meter calculations.",
-      "tags": ["customs", "hs-code", "landed-cost", "freight", "tariff"],
+      "tags": [
+        "customs",
+        "hs-code",
+        "landed-cost",
+        "freight",
+        "tariff"
+      ],
       "examples": [
         "I'm importing low-value bulky items - how do I know if shipping will kill my margin?",
         "What are the hidden port charges in LCL shipping from China?",
         "My supplier says HS code doesn't matter - is that true?"
       ],
-      "inputModes": ["text/plain"],
-      "outputModes": ["text/plain", "application/pdf"]
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/pdf"
+      ]
     },
     {
       "id": "payment-fraud-check",
       "name": "Payment & Wire Fraud Check",
       "description": "Detects payment hijacking schemes: requests to wire deposits to personal/uncle's company accounts, invoice-swap fraud, advance payment traps before contract terms are locked, and 3 red flags that precede 90% of China sourcing scams.",
-      "tags": ["payment-fraud", "wire-transfer", "scam-detection", "deposit"],
+      "tags": [
+        "payment-fraud",
+        "wire-transfer",
+        "scam-detection",
+        "deposit"
+      ],
       "examples": [
         "Supplier wants 50% deposit upfront - what should I negotiate?",
         "Salesperson asked me to pay his new company instead of the factory - legit?",
         "What are the warning signs of a China sourcing wire fraud?"
       ],
-      "inputModes": ["text/plain"],
-      "outputModes": ["text/plain", "application/pdf"]
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/pdf"
+      ]
     },
     {
       "id": "sample-switch-audit",
       "name": "Sample Switch Audit",
       "description": "Detects sample-switching schemes where suppliers send high-grade samples then ship lower-grade production: contract clauses that prevent it, QC inspection timing, sealed-sample comparison, and video verification tactics.",
-      "tags": ["qc", "sample", "quality-control", "inspection"],
+      "tags": [
+        "qc",
+        "sample",
+        "quality-control",
+        "inspection"
+      ],
       "examples": [
         "How do I make sure my production matches the sample?",
         "What contract clause prevents the factory from switching materials?",
         "What QC checks should I run before the container ships?"
       ],
-      "inputModes": ["text/plain"],
-      "outputModes": ["text/plain", "application/pdf"]
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/pdf"
+      ]
+    },
+    {
+      "id": "ai-automation-failure-diagnosis",
+      "name": "AI Automation Failure Diagnosis",
+      "description": "Diagnoses why AI automation fails to produce: agent workflows that return nothing, rule/playbook systems that don't fire, pipelines that break silently, and automation stacks where every step passes but output stays zero. Covers the top failure patterns — over-engineering, missing external triggers, no verification gates, no feedback loops — and how to audit an automation stack in under an hour.",
+      "tags": [
+        "ai-automation",
+        "agent-workflow",
+        "automation-failure",
+        "diagnostics",
+        "debugging"
+      ],
+      "examples": [
+        "My AI automation pipeline stopped producing output - how do I diagnose it?",
+        "Why do my agent workflows keep failing even though every step passes?",
+        "What are the most common reasons automation systems quietly break?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/pdf"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "China Zero-Cost Sourcing Audit Checklist",
+      "url": "https://lunarwave8803.gumroad.com/l/yxgrvw",
+      "price": 0,
+      "type": "free-lead-magnet"
+    },
+    {
+      "name": "Trusted Supplier Architecture 2026",
+      "url": "https://lunarwave8803.gumroad.com/l/kbgmsy",
+      "price": 14,
+      "type": "paid"
+    },
+    {
+      "name": "China Business Bundle 2026",
+      "url": "https://lunarwave8803.gumroad.com/l/ijpnuw",
+      "price": 79,
+      "type": "paid-bundle"
+    },
+    {
+      "name": "Inversion of Control Flaw",
+      "url": "https://lunarwave8803.gumroad.com/l/ywxlvy",
+      "price": 9,
+      "type": "paid"
+    },
+    {
+      "name": "AI Automation Rule Audit",
+      "url": "https://lunarwave8803.gumroad.com/l/dvqab",
+      "price": 0,
+      "type": "free-lead-magnet"
     }
   ]
 }

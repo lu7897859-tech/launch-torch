@@ -1,8 +1,8 @@
 {
-  "name": "China Sourcing Risk Audit Agent",
+  "name": "Lunarwave AI Assets: China Sourcing Audit + UCP Store Audit",
   "description": "AI agent that audits China sourcing risks: detects fake factories, gold-supplier badge fraud, sample switching, payment hijacking, customs/HS misclassification, and freight cost traps. Produces actionable checklists and red-flag reports for importers placing $5k-$50k first orders. Also diagnoses why AI automation pipelines fail to produce — agent workflows, rule systems, and automation stacks that quietly break. Free checklist funnel: https://lunarwave8803.gumroad.com/l/yxgrvw (free) → Trusted Supplier Architecture $14 (https://lunarwave8803.gumroad.com/l/kbgmsy) → China Business Bundle $79 (https://lunarwave8803.gumroad.com/l/ijpnuw).",
   "url": "https://lunarwave8803.gumroad.com/l/yxgrvw",
-  "version": "2.0.0",
+  "version": "2.3.0",
   "provider": {
     "organization": "ABOS",
     "url": "https://lu7897859-tech.github.io/launch-torch/"
@@ -140,6 +140,29 @@
         "text/plain",
         "application/pdf"
       ]
+    },
+    {
+      "id": "ucp-store-audit-mcp",
+      "name": "UCP Store Audit",
+      "description": "Audit any Shopify store agent-commerce (UCP) health: audit_store (single store: UCP endpoint status, category filter correct/ignored, AI-agent reachability), batch_survey (1-50 stores: verdicts + aggregate stats). Based on a 30-store survey: 89% of UCP-enabled stores silently ignore category filters; 67% unreachable to cookie-less agent requests.",
+      "tags": [
+        "ucp",
+        "shopify",
+        "agent-commerce",
+        "store-audit",
+        "ai-shopping"
+      ],
+      "examples": [
+        "Audit colourpop.com UCP health",
+        "Batch survey these Shopify stores: colourpop.com,dooney.com",
+        "Which of my competitor stores are AI-shopping ready?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain"
+      ]
     }
   ],
   "products": [
@@ -178,5 +201,25 @@
   "security": {
     "authenticationSchemes": [],
     "verificationMethods": []
-  }
+  },
+  "machinePayments": {
+    "protocol": "x402",
+    "network": "base",
+    "currency": "USDC",
+    "recipient": "0x688887dAbd7777589122f383761B397bd46Be707",
+    "endpoint": "https://oscar-polls-ontario-navigator.trycloudflare.com/",
+    "freeTier": "3 calls per wallet",
+    "pricing": {
+      "verify_supplier": "0.03 USDC",
+      "landed_cost_calc": "0.02 USDC",
+      "payment_red_flags": "0.01 USDC",
+      "audit_checklist": "0.01 USDC",
+      "certification_check": "0.01 USDC"
+    },
+    "mechanism": "Server responds HTTP 402 Payment Required with X-Payment header when free quota exhausted; client pays USDC via x402 protocol"
+  },
+  "mcpEndpoints": [
+    "https://certification-conversations-fixed-oak.trycloudflare.com/mcp",
+    "https://soldiers-satisfaction-packed-lender.trycloudflare.com/mcp"
+  ]
 }

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lu7897859-tech/launch-torch",
+  "title": "Lunarwave China Sourcing + UCP Audit",
+  "description": "China supplier verification, landed cost calculation, payment red flags, certification checks, and Shopify UCP store health audits for AI agents.",
+  "status": "active",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/lu7897859-tech/launch-torch",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nov-gnome-refined-bloomberg.trycloudflare.com/mcp"
+    }
+  ]
+}

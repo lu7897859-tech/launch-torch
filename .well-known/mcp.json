@@ -5,14 +5,24 @@
     {
       "name": "china-sourcing-audit",
       "description": "6 tools: verify_supplier, landed_cost_calc, payment_red_flags, audit_checklist, certification_check, full_supplier_audit",
-      "url": "https://certification-conversations-fixed-oak.trycloudflare.com/mcp",
-      "tools": ["verify_supplier", "landed_cost_calc", "payment_red_flags", "audit_checklist", "certification_check", "full_supplier_audit"]
+      "url": "https://nov-gnome-refined-bloomberg.trycloudflare.com/mcp",
+      "tools": [
+        "verify_supplier",
+        "landed_cost_calc",
+        "payment_red_flags",
+        "audit_checklist",
+        "certification_check",
+        "full_supplier_audit"
+      ]
     },
     {
       "name": "ucp-store-audit",
       "description": "Shopify UCP health audit: audit_store, batch_survey",
-      "url": "https://soldiers-satisfaction-packed-lender.trycloudflare.com/mcp",
-      "tools": ["audit_store", "batch_survey"]
+      "url": "https://funny-meetup-compare-resume.trycloudflare.com/mcp",
+      "tools": [
+        "audit_store",
+        "batch_survey"
+      ]
     }
   ]
 }
